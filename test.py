@@ -6,7 +6,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)  
 
-sdk = YCloudML(folder_id="b1gbrhri5nuutq24qb5f", auth="t1.9euelZqLnZ6Kj53PiceVmJ2dx5KKie3rnpWayZ6NjYyZj5iKnc7HncrLl5nl9PcSTxFF-e9JIB-83fT3Un0ORfnvSSAfvM3n9euelZrJl5mLz46alJqbzZDHl5eWmO_8xeuelZrJl5mLz46alJqbzZDHl5eWmA.udwAkrlywfHjtAyAGA_-s3aE5cPY0C-8i0b3nqaDigjMWDRFbTBEUXL8VqT5rWHn8z68i-pmBJvkEtXRIOMjCg")
+sdk = YCloudML(folder_id="СЕКРЕТ", auth="СЕКРЕТ")
 model = sdk.models.completions("yandexgpt")
 model = model.configure(temperature=0.5)
 
